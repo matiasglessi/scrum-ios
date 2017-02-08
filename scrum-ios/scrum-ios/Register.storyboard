@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C68" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="7I3-8G-k8x">
+            <objects>
+                <viewController id="hKf-YO-f7c" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="BZ3-lm-hbs"/>
+                        <viewControllerLayoutGuide type="bottom" id="pVs-pS-Dxu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9ae-hR-KJN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="F68-xY-WNp">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Crea una nueva cuenta" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PHW-sx-cvW">
+                                        <rect key="frame" x="99" y="15" width="176" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.085174460090000001" green="0.55554013319999995" blue="0.18368227300000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="PHW-sx-cvW" firstAttribute="centerY" secondItem="F68-xY-WNp" secondAttribute="centerY" id="GnC-tr-QcJ"/>
+                                    <constraint firstAttribute="height" constant="50" id="Mtz-kH-j8a"/>
+                                    <constraint firstItem="PHW-sx-cvW" firstAttribute="centerX" secondItem="F68-xY-WNp" secondAttribute="centerX" id="dSq-Hn-AL3"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="nombre :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fj1-wW-5mJ">
+                                <rect key="frame" x="22" y="167" width="82" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="apellido :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gzx-Br-NI6">
+                                <rect key="frame" x="22" y="202" width="82" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="mail  :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GTX-gN-4QJ">
+                                <rect key="frame" x="22" y="242" width="82" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0fi-wr-pY9">
+                                <rect key="frame" x="22" y="79" width="60" height="60"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="P8g-qN-9s2"/>
+                                    <constraint firstAttribute="height" constant="60" id="WfV-jw-W9S"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dvU-Ov-6Dy">
+                                <rect key="frame" x="0.0" y="597" width="375" height="70"/>
+                                <color key="backgroundColor" red="0.085174460090000001" green="0.55554013319999995" blue="0.18368227300000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="Wv5-ek-BrH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Empieza a jugar!">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Agrega una foto!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dAO-lu-uq9">
+                                <rect key="frame" x="165" y="99" width="127" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="pVs-pS-Dxu" firstAttribute="top" secondItem="dvU-Ov-6Dy" secondAttribute="bottom" id="9E9-4d-ZeG"/>
+                            <constraint firstAttribute="trailing" secondItem="F68-xY-WNp" secondAttribute="trailing" id="DI2-GU-LKu"/>
+                            <constraint firstItem="dvU-Ov-6Dy" firstAttribute="leading" secondItem="9ae-hR-KJN" secondAttribute="leading" id="NQ7-0E-5yE"/>
+                            <constraint firstItem="F68-xY-WNp" firstAttribute="top" secondItem="9ae-hR-KJN" secondAttribute="top" id="Sc2-4u-wyZ"/>
+                            <constraint firstAttribute="trailing" secondItem="dvU-Ov-6Dy" secondAttribute="trailing" id="iGj-n7-nyO"/>
+                            <constraint firstItem="0fi-wr-pY9" firstAttribute="top" secondItem="F68-xY-WNp" secondAttribute="bottom" constant="29" id="iH2-qr-cEC"/>
+                            <constraint firstItem="F68-xY-WNp" firstAttribute="leading" secondItem="9ae-hR-KJN" secondAttribute="leading" id="jrI-4B-kDN"/>
+                            <constraint firstItem="0fi-wr-pY9" firstAttribute="leading" secondItem="9ae-hR-KJN" secondAttribute="leading" constant="22" id="tIY-5g-4RA"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hFj-Gy-O3A" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="54" y="97"/>
+        </scene>
+    </scenes>
+</document>
