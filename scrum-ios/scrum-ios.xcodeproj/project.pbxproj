@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		076A8306D15923F4457652F2 /* Pods_scrum_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF7B41E7C38194D96D34FF90 /* Pods_scrum_ios.framework */; };
 		B33A65BA1E4A8F3B00EED41A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33A65B91E4A8F3B00EED41A /* AppDelegate.swift */; };
 		B33A65BC1E4A8F3B00EED41A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33A65BB1E4A8F3B00EED41A /* ViewController.swift */; };
 		B33A65BF1E4A8F3B00EED41A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B33A65BD1E4A8F3B00EED41A /* Main.storyboard */; };
 		B33A65C11E4A8F3B00EED41A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B33A65C01E4A8F3B00EED41A /* Assets.xcassets */; };
 		B33A65C41E4A8F3B00EED41A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B33A65C21E4A8F3B00EED41A /* LaunchScreen.storyboard */; };
 		B33A65CC1E4A92D300EED41A /* Register.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B33A65CB1E4A92D300EED41A /* Register.storyboard */; };
+		B3630E711E7872E40014768D /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3630E701E7872E40014768D /* RegisterViewController.swift */; };
+		B3630E731E78769A0014768D /* LevelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3630E721E78769A0014768D /* LevelsViewController.swift */; };
+		B3630E751E7876A60014768D /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3630E741E7876A60014768D /* ProfileViewController.swift */; };
+		B3630E771E7876B10014768D /* ConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3630E761E7876B10014768D /* ConfigurationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		03E19FBE8DBB34FDDD09A885 /* Pods-scrum-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-scrum-ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-scrum-ios/Pods-scrum-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		991A52B548E1232C98EA349D /* Pods-scrum-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-scrum-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-scrum-ios/Pods-scrum-ios.release.xcconfig"; sourceTree = "<group>"; };
 		B33A65B61E4A8F3B00EED41A /* scrum-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "scrum-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B33A65B91E4A8F3B00EED41A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B33A65BB1E4A8F3B00EED41A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +31,11 @@
 		B33A65C31E4A8F3B00EED41A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B33A65C51E4A8F3B00EED41A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B33A65CB1E4A92D300EED41A /* Register.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Register.storyboard; sourceTree = "<group>"; };
+		B3630E701E7872E40014768D /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		B3630E721E78769A0014768D /* LevelsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelsViewController.swift; sourceTree = "<group>"; };
+		B3630E741E7876A60014768D /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		B3630E761E7876B10014768D /* ConfigurationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurationViewController.swift; sourceTree = "<group>"; };
+		BF7B41E7C38194D96D34FF90 /* Pods_scrum_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_scrum_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				076A8306D15923F4457652F2 /* Pods_scrum_ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9465C3DCFF37CF87830FFDB4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF7B41E7C38194D96D34FF90 /* Pods_scrum_ios.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B33A65AD1E4A8F3B00EED41A = {
 			isa = PBXGroup;
 			children = (
 				B33A65B81E4A8F3B00EED41A /* scrum-ios */,
 				B33A65B71E4A8F3B00EED41A /* Products */,
+				FF0811CA4E5BDF956BD4BDF7 /* Pods */,
+				9465C3DCFF37CF87830FFDB4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,6 +80,10 @@
 			isa = PBXGroup;
 			children = (
 				B33A65B91E4A8F3B00EED41A /* AppDelegate.swift */,
+				B3630E701E7872E40014768D /* RegisterViewController.swift */,
+				B3630E721E78769A0014768D /* LevelsViewController.swift */,
+				B3630E741E7876A60014768D /* ProfileViewController.swift */,
+				B3630E761E7876B10014768D /* ConfigurationViewController.swift */,
 				B33A65BB1E4A8F3B00EED41A /* ViewController.swift */,
 				B33A65BD1E4A8F3B00EED41A /* Main.storyboard */,
 				B33A65CB1E4A92D300EED41A /* Register.storyboard */,
@@ -67,6 +94,15 @@
 			path = "scrum-ios";
 			sourceTree = "<group>";
 		};
+		FF0811CA4E5BDF956BD4BDF7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				03E19FBE8DBB34FDDD09A885 /* Pods-scrum-ios.debug.xcconfig */,
+				991A52B548E1232C98EA349D /* Pods-scrum-ios.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B33A65C81E4A8F3B00EED41A /* Build configuration list for PBXNativeTarget "scrum-ios" */;
 			buildPhases = (
+				7191088AC3931F07F381E6A3 /* [CP] Check Pods Manifest.lock */,
 				B33A65B21E4A8F3B00EED41A /* Sources */,
 				B33A65B31E4A8F3B00EED41A /* Frameworks */,
 				B33A65B41E4A8F3B00EED41A /* Resources */,
+				D7B924FD7EC98973356CB269 /* [CP] Embed Pods Frameworks */,
+				8EAFE29661F5441243E2A5E6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -136,13 +175,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7191088AC3931F07F381E6A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8EAFE29661F5441243E2A5E6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-scrum-ios/Pods-scrum-ios-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7B924FD7EC98973356CB269 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-scrum-ios/Pods-scrum-ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B33A65B21E4A8F3B00EED41A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3630E711E7872E40014768D /* RegisterViewController.swift in Sources */,
 				B33A65BC1E4A8F3B00EED41A /* ViewController.swift in Sources */,
+				B3630E751E7876A60014768D /* ProfileViewController.swift in Sources */,
 				B33A65BA1E4A8F3B00EED41A /* AppDelegate.swift in Sources */,
+				B3630E731E78769A0014768D /* LevelsViewController.swift in Sources */,
+				B3630E771E7876B10014768D /* ConfigurationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +354,7 @@
 		};
 		B33A65C91E4A8F3B00EED41A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03E19FBE8DBB34FDDD09A885 /* Pods-scrum-ios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 82GZ32TP2H;
@@ -276,6 +368,7 @@
 		};
 		B33A65CA1E4A8F3B00EED41A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 991A52B548E1232C98EA349D /* Pods-scrum-ios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 82GZ32TP2H;
@@ -306,6 +399,7 @@
 				B33A65CA1E4A8F3B00EED41A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
