@@ -18,6 +18,7 @@
 		B3630E731E78769A0014768D /* LevelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3630E721E78769A0014768D /* LevelsViewController.swift */; };
 		B3630E751E7876A60014768D /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3630E741E7876A60014768D /* ProfileViewController.swift */; };
 		B3630E771E7876B10014768D /* ConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3630E761E7876B10014768D /* ConfigurationViewController.swift */; };
+		B36D0B3D1E78C36D0096E634 /* Levels.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B36D0B3C1E78C36D0096E634 /* Levels.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		B3630E721E78769A0014768D /* LevelsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelsViewController.swift; sourceTree = "<group>"; };
 		B3630E741E7876A60014768D /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		B3630E761E7876B10014768D /* ConfigurationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurationViewController.swift; sourceTree = "<group>"; };
+		B36D0B3C1E78C36D0096E634 /* Levels.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Levels.storyboard; sourceTree = "<group>"; };
 		BF7B41E7C38194D96D34FF90 /* Pods_scrum_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_scrum_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -79,19 +81,28 @@
 		B33A65B81E4A8F3B00EED41A /* scrum-ios */ = {
 			isa = PBXGroup;
 			children = (
+				B36D0B3B1E78C3480096E634 /* Storyboards */,
 				B33A65B91E4A8F3B00EED41A /* AppDelegate.swift */,
 				B3630E701E7872E40014768D /* RegisterViewController.swift */,
 				B3630E721E78769A0014768D /* LevelsViewController.swift */,
 				B3630E741E7876A60014768D /* ProfileViewController.swift */,
 				B3630E761E7876B10014768D /* ConfigurationViewController.swift */,
 				B33A65BB1E4A8F3B00EED41A /* ViewController.swift */,
-				B33A65BD1E4A8F3B00EED41A /* Main.storyboard */,
-				B33A65CB1E4A92D300EED41A /* Register.storyboard */,
 				B33A65C01E4A8F3B00EED41A /* Assets.xcassets */,
-				B33A65C21E4A8F3B00EED41A /* LaunchScreen.storyboard */,
 				B33A65C51E4A8F3B00EED41A /* Info.plist */,
 			);
 			path = "scrum-ios";
+			sourceTree = "<group>";
+		};
+		B36D0B3B1E78C3480096E634 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				B33A65BD1E4A8F3B00EED41A /* Main.storyboard */,
+				B33A65CB1E4A92D300EED41A /* Register.storyboard */,
+				B33A65C21E4A8F3B00EED41A /* LaunchScreen.storyboard */,
+				B36D0B3C1E78C36D0096E634 /* Levels.storyboard */,
+			);
+			name = Storyboards;
 			sourceTree = "<group>";
 		};
 		FF0811CA4E5BDF956BD4BDF7 /* Pods */ = {
@@ -166,6 +177,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B36D0B3D1E78C36D0096E634 /* Levels.storyboard in Resources */,
 				B33A65C41E4A8F3B00EED41A /* LaunchScreen.storyboard in Resources */,
 				B33A65C11E4A8F3B00EED41A /* Assets.xcassets in Resources */,
 				B33A65BF1E4A8F3B00EED41A /* Main.storyboard in Resources */,

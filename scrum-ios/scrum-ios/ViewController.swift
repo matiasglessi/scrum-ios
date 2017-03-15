@@ -20,6 +20,14 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func buttonPressed(_ sender: Any) {
+        
+        let messagesStoryboard = UIStoryboard.init(name: "Register", bundle: nil)
+        let messagesVC = messagesStoryboard.instantiateViewController(withIdentifier: "RegisterViewController") as! RegisterViewController
+
+        
+        self.navigationController?.pushViewController(messagesVC, animated: true)
+    }
 
 }
 
