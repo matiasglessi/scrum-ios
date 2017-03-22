@@ -27,6 +27,18 @@ class ViewController: UIViewController {
 
         
         self.navigationController?.pushViewController(messagesVC, animated: true)
+ 
+    }
+
+    @IBAction func bigLevelsPressed(_ sender: Any) {
+        
+        
+        let messagesStoryboard = UIStoryboard.init(name: "Levels", bundle: nil)
+        let lalaVC = messagesStoryboard.instantiateViewController(withIdentifier: "LevelsViewController") as! LevelsViewController
+        
+        
+        self.navigationController?.pushViewController(lalaVC, animated: true)
+
     }
 
 }

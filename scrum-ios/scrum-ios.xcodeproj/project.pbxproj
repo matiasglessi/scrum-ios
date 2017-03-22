@@ -19,6 +19,10 @@
 		B3630E751E7876A60014768D /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3630E741E7876A60014768D /* ProfileViewController.swift */; };
 		B3630E771E7876B10014768D /* ConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3630E761E7876B10014768D /* ConfigurationViewController.swift */; };
 		B36D0B3D1E78C36D0096E634 /* Levels.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B36D0B3C1E78C36D0096E634 /* Levels.storyboard */; };
+		B371F1F11E82C21900F1990A /* BigLevelCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B371F1EF1E82C21900F1990A /* BigLevelCollectionViewCell.swift */; };
+		B371F1F21E82C21900F1990A /* BigLevelCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B371F1F01E82C21900F1990A /* BigLevelCollectionViewCell.xib */; };
+		B371F1F61E831C6E00F1990A /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B371F1F41E831C5C00F1990A /* Montserrat-Bold.ttf */; };
+		B371F1F71E831C7200F1990A /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B371F1F51E831C5C00F1990A /* Montserrat-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +41,10 @@
 		B3630E741E7876A60014768D /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		B3630E761E7876B10014768D /* ConfigurationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurationViewController.swift; sourceTree = "<group>"; };
 		B36D0B3C1E78C36D0096E634 /* Levels.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Levels.storyboard; sourceTree = "<group>"; };
+		B371F1EF1E82C21900F1990A /* BigLevelCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BigLevelCollectionViewCell.swift; sourceTree = "<group>"; };
+		B371F1F01E82C21900F1990A /* BigLevelCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BigLevelCollectionViewCell.xib; sourceTree = "<group>"; };
+		B371F1F41E831C5C00F1990A /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		B371F1F51E831C5C00F1990A /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
 		BF7B41E7C38194D96D34FF90 /* Pods_scrum_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_scrum_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -65,6 +73,7 @@
 			children = (
 				B33A65B81E4A8F3B00EED41A /* scrum-ios */,
 				B33A65B71E4A8F3B00EED41A /* Products */,
+				B371F1F31E831C5C00F1990A /* Resources */,
 				FF0811CA4E5BDF956BD4BDF7 /* Pods */,
 				9465C3DCFF37CF87830FFDB4 /* Frameworks */,
 			);
@@ -82,11 +91,10 @@
 			isa = PBXGroup;
 			children = (
 				B36D0B3B1E78C3480096E634 /* Storyboards */,
+				B371F1EE1E82C13500F1990A /* ViewControllers */,
 				B33A65B91E4A8F3B00EED41A /* AppDelegate.swift */,
-				B3630E701E7872E40014768D /* RegisterViewController.swift */,
-				B3630E721E78769A0014768D /* LevelsViewController.swift */,
-				B3630E741E7876A60014768D /* ProfileViewController.swift */,
-				B3630E761E7876B10014768D /* ConfigurationViewController.swift */,
+				B371F1EF1E82C21900F1990A /* BigLevelCollectionViewCell.swift */,
+				B371F1F01E82C21900F1990A /* BigLevelCollectionViewCell.xib */,
 				B33A65BB1E4A8F3B00EED41A /* ViewController.swift */,
 				B33A65C01E4A8F3B00EED41A /* Assets.xcassets */,
 				B33A65C51E4A8F3B00EED41A /* Info.plist */,
@@ -103,6 +111,27 @@
 				B36D0B3C1E78C36D0096E634 /* Levels.storyboard */,
 			);
 			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		B371F1EE1E82C13500F1990A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B3630E701E7872E40014768D /* RegisterViewController.swift */,
+				B3630E721E78769A0014768D /* LevelsViewController.swift */,
+				B3630E741E7876A60014768D /* ProfileViewController.swift */,
+				B3630E761E7876B10014768D /* ConfigurationViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B371F1F31E831C5C00F1990A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B371F1F41E831C5C00F1990A /* Montserrat-Bold.ttf */,
+				B371F1F51E831C5C00F1990A /* Montserrat-Regular.ttf */,
+			);
+			name = Resources;
+			path = "scrum-ios/Resources";
 			sourceTree = "<group>";
 		};
 		FF0811CA4E5BDF956BD4BDF7 /* Pods */ = {
@@ -177,6 +206,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B371F1F71E831C7200F1990A /* Montserrat-Regular.ttf in Resources */,
+				B371F1F61E831C6E00F1990A /* Montserrat-Bold.ttf in Resources */,
+				B371F1F21E82C21900F1990A /* BigLevelCollectionViewCell.xib in Resources */,
 				B36D0B3D1E78C36D0096E634 /* Levels.storyboard in Resources */,
 				B33A65C41E4A8F3B00EED41A /* LaunchScreen.storyboard in Resources */,
 				B33A65C11E4A8F3B00EED41A /* Assets.xcassets in Resources */,
@@ -246,6 +278,7 @@
 				B33A65BA1E4A8F3B00EED41A /* AppDelegate.swift in Sources */,
 				B3630E731E78769A0014768D /* LevelsViewController.swift in Sources */,
 				B3630E771E7876B10014768D /* ConfigurationViewController.swift in Sources */,
+				B371F1F11E82C21900F1990A /* BigLevelCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -89,7 +89,7 @@
                                 <rect key="frame" x="20" y="497" width="335" height="41.5"/>
                                 <subviews>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hoP-rl-lps" customClass="SkyFloatingLabelTextField" customModule="SkyFloatingLabelTextField">
-                                        <rect key="frame" x="0.0" y="0.0" width="85" height="41.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="155.5" height="41.5"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                         <textInputTraits key="textInputTraits"/>
@@ -98,7 +98,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0OW-Kv-Xhq" customClass="SkyFloatingLabelTextField" customModule="SkyFloatingLabelTextField">
-                                        <rect key="frame" x="125" y="0.0" width="85" height="41.5"/>
+                                        <rect key="frame" x="195.5" y="0.0" width="51.5" height="41.5"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                         <textInputTraits key="textInputTraits"/>
@@ -107,7 +107,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BB2-FY-yKb" customClass="SkyFloatingLabelTextField" customModule="SkyFloatingLabelTextField">
-                                        <rect key="frame" x="250" y="0.0" width="85" height="41.5"/>
+                                        <rect key="frame" x="287" y="0.0" width="48" height="41.5"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                         <textInputTraits key="textInputTraits"/>
@@ -127,6 +127,9 @@
                                         <state key="normal" title="mujer">
                                             <color key="titleColor" red="0.085174460090000001" green="0.55554013319999995" blue="0.18368227300000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="womanButtonTapped:" destination="hKf-YO-f7c" eventType="touchUpInside" id="RUe-Ow-ljk"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vdq-VV-ft1">
                                         <rect key="frame" x="167.5" y="0.0" width="167.5" height="30"/>
@@ -135,6 +138,9 @@
                                         <state key="normal" title="hombre">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="manButtonTapped:" destination="hKf-YO-f7c" eventType="touchUpInside" id="Zas-0Z-cTg"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -169,6 +175,10 @@
                     </view>
                     <toolbarItems/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="manGenreButton" destination="Vdq-VV-ft1" id="cz3-FG-4pk"/>
+                        <outlet property="womanGenreButton" destination="Lai-Fm-NmL" id="h3T-hE-1SA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hFj-Gy-O3A" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
