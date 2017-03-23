@@ -1,12 +1,15 @@
 PODS:
   - SkyFloatingLabelTextField (2.0.1)
+  - UICircularProgressRing (1.1.7)
 
 DEPENDENCIES:
   - SkyFloatingLabelTextField (~> 2.0.0)
+  - UICircularProgressRing
 
 SPEC CHECKSUMS:
   SkyFloatingLabelTextField: 070e749632ffd608d6fd9db3fa488a822524997c
+  UICircularProgressRing: aa42aecd035658bd7212fab6e2feabc8dcc72fae
 
-PODFILE CHECKSUM: 2ce7877991132c8ee6a2c112fce35f715f801fcc
+PODFILE CHECKSUM: e92e96dac8aa0f6fc6263d25ae895a81619d468d
 
 COCOAPODS: 1.1.1

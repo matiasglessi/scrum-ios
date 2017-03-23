@@ -23,6 +23,9 @@
 		B371F1F21E82C21900F1990A /* BigLevelCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B371F1F01E82C21900F1990A /* BigLevelCollectionViewCell.xib */; };
 		B371F1F61E831C6E00F1990A /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B371F1F41E831C5C00F1990A /* Montserrat-Bold.ttf */; };
 		B371F1F71E831C7200F1990A /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B371F1F51E831C5C00F1990A /* Montserrat-Regular.ttf */; };
+		B3D363221E836A74003DB3ED /* SubLevel.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3D363211E836A74003DB3ED /* SubLevel.storyboard */; };
+		B3D363251E836BCE003DB3ED /* SubLevelCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D363231E836BCE003DB3ED /* SubLevelCollectionViewCell.swift */; };
+		B3D363261E836BCE003DB3ED /* SubLevelCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3D363241E836BCE003DB3ED /* SubLevelCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +48,9 @@
 		B371F1F01E82C21900F1990A /* BigLevelCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BigLevelCollectionViewCell.xib; sourceTree = "<group>"; };
 		B371F1F41E831C5C00F1990A /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
 		B371F1F51E831C5C00F1990A /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		B3D363211E836A74003DB3ED /* SubLevel.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SubLevel.storyboard; sourceTree = "<group>"; };
+		B3D363231E836BCE003DB3ED /* SubLevelCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubLevelCollectionViewCell.swift; sourceTree = "<group>"; };
+		B3D363241E836BCE003DB3ED /* SubLevelCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SubLevelCollectionViewCell.xib; sourceTree = "<group>"; };
 		BF7B41E7C38194D96D34FF90 /* Pods_scrum_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_scrum_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -94,6 +100,8 @@
 				B371F1EE1E82C13500F1990A /* ViewControllers */,
 				B33A65B91E4A8F3B00EED41A /* AppDelegate.swift */,
 				B371F1EF1E82C21900F1990A /* BigLevelCollectionViewCell.swift */,
+				B3D363231E836BCE003DB3ED /* SubLevelCollectionViewCell.swift */,
+				B3D363241E836BCE003DB3ED /* SubLevelCollectionViewCell.xib */,
 				B371F1F01E82C21900F1990A /* BigLevelCollectionViewCell.xib */,
 				B33A65BB1E4A8F3B00EED41A /* ViewController.swift */,
 				B33A65C01E4A8F3B00EED41A /* Assets.xcassets */,
@@ -109,6 +117,7 @@
 				B33A65CB1E4A92D300EED41A /* Register.storyboard */,
 				B33A65C21E4A8F3B00EED41A /* LaunchScreen.storyboard */,
 				B36D0B3C1E78C36D0096E634 /* Levels.storyboard */,
+				B3D363211E836A74003DB3ED /* SubLevel.storyboard */,
 			);
 			name = Storyboards;
 			sourceTree = "<group>";
@@ -208,12 +217,14 @@
 			files = (
 				B371F1F71E831C7200F1990A /* Montserrat-Regular.ttf in Resources */,
 				B371F1F61E831C6E00F1990A /* Montserrat-Bold.ttf in Resources */,
+				B3D363261E836BCE003DB3ED /* SubLevelCollectionViewCell.xib in Resources */,
 				B371F1F21E82C21900F1990A /* BigLevelCollectionViewCell.xib in Resources */,
 				B36D0B3D1E78C36D0096E634 /* Levels.storyboard in Resources */,
 				B33A65C41E4A8F3B00EED41A /* LaunchScreen.storyboard in Resources */,
 				B33A65C11E4A8F3B00EED41A /* Assets.xcassets in Resources */,
 				B33A65BF1E4A8F3B00EED41A /* Main.storyboard in Resources */,
 				B33A65CC1E4A92D300EED41A /* Register.storyboard in Resources */,
+				B3D363221E836A74003DB3ED /* SubLevel.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3D363251E836BCE003DB3ED /* SubLevelCollectionViewCell.swift in Sources */,
 				B3630E711E7872E40014768D /* RegisterViewController.swift in Sources */,
 				B33A65BC1E4A8F3B00EED41A /* ViewController.swift in Sources */,
 				B3630E751E7876A60014768D /* ProfileViewController.swift in Sources */,

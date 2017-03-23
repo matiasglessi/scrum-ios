@@ -7,93 +7,142 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		244C39CB4D5F542EB2F9D80215C51D83 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		27855C78EFA6997228D2BE4ECF334308 /* SkyFloatingLabelTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3998D604C4194CAA0ABE4BC6A6FD0608 /* SkyFloatingLabelTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4E611246816BE05D7C814B052D719ED9 /* Pods-scrum-ios-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 363B0941A1B5B7FBB063C6BAAC272347 /* Pods-scrum-ios-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7AD9295C389410700ECD10750A6D183B /* SkyFloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2FD3B444C15779258A1E4254154328 /* SkyFloatingLabelTextField.swift */; };
-		9F5FF43A00B0DF3350A599E88242C31C /* UITextField+fixCaretPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEECCA755E56BD7670ACA5B8FDE8C49 /* UITextField+fixCaretPosition.swift */; };
-		B1E0B11FB27209AA00A6AFDA7A925C3C /* Pods-scrum-ios-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F897F7AB6FC8107D7984093793FB50C /* Pods-scrum-ios-dummy.m */; };
-		D48CEA6FB0710488768A0F568FFEF3AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		E448380EB06FC8B473F3C46E9F92FD89 /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AB6AF7BE4547CE64DE5711633CFFC0 /* SkyFloatingLabelTextFieldWithIcon.swift */; };
-		EA68C963490A7227830FEE8272553C97 /* SkyFloatingLabelTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 856C1FB00B0585E564D3D0EBDE90E4F5 /* SkyFloatingLabelTextField-dummy.m */; };
+		00C1AD351F5C740A95FF16FEDB0780D2 /* Pods-scrum-ios-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 363B0941A1B5B7FBB063C6BAAC272347 /* Pods-scrum-ios-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24DE2EB9A5FEBCDC104C312252136AD4 /* UICircularProgressRingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C191C7FCFCFD515E8AAF92FC001C6B61 /* UICircularProgressRingView.swift */; };
+		46DFE69219AC545D4BE88D5ECF9D2A62 /* UICircularProgressRingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941DA83D3C3A02A65862C41C07ED221C /* UICircularProgressRingLayer.swift */; };
+		4D73C430FC5A7A3494518E896BA670C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		4E54101C9722DD1DA373557B1B5F937D /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7AB5BBE0EA9A0F97D35F3E3CC26D8E /* SkyFloatingLabelTextFieldWithIcon.swift */; };
+		583D6EEC5E35CE3ED9E9069642328758 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		5D34CEC13C6B8B1CEB1F871A0E7418EF /* SkyFloatingLabelTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1991F20B3B17A95E63BD761411932528 /* SkyFloatingLabelTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		623F1B4C5993365300C45E18BE06FDC4 /* UICircularProgressRing-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 726AED34FA9437AE5199DC8710BB1B17 /* UICircularProgressRing-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73F9EA0F4231E6B716FF01FD67E0360D /* SkyFloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22879DE9B0EFEFAE1551799592746041 /* SkyFloatingLabelTextField.swift */; };
+		7E65D51CDCA848D8A8C3011578087840 /* UICircularProgressRing-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B2F684098ADB1A6058E981FE0F441A /* UICircularProgressRing-dummy.m */; };
+		87D3DB83E128421ECD77CA58F2FC2986 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		8FAE9BA37EE579B36971F1F2A467BB38 /* Pods-scrum-ios-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F897F7AB6FC8107D7984093793FB50C /* Pods-scrum-ios-dummy.m */; };
+		C7BBFF4D891C85D3B2685A71DC976C12 /* SkyFloatingLabelTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D40B06810BFE3F7B89E713F2DDD39649 /* SkyFloatingLabelTextField-dummy.m */; };
+		D36DF9B47B90EAD51AAEF0918796A7D6 /* UICircularProgressRingDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB6ECE3268D630327CCE651BD827EAD /* UICircularProgressRingDelegate.swift */; };
+		E102CBAD47EE61C864D17BD2AA6DC611 /* UICircularProgressRing.h in Headers */ = {isa = PBXBuildFile; fileRef = DD50C7EE7B8ECA5B55DC8DFADE67EBCB /* UICircularProgressRing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E957D2E62955051A341667BB0F84EDFD /* UITextField+fixCaretPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF06124B5DCF1C4419589359A1DC4E6 /* UITextField+fixCaretPosition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5C5B5652EA8AE6C055032568CB757AC9 /* PBXContainerItemProxy */ = {
+		89367C811AC8339405D79B4425E04C5C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8558CD1F74E8AA00B8D15E32EBAA3BCF;
+			remoteGlobalIDString = 55C62BACCDBED9AD1E208046FCFF0CA3;
+			remoteInfo = UICircularProgressRing;
+		};
+		FDD96A0FDDDB1C4C23DDB95598395A4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5845FF25B1BCDFE32E0DBD24EC86847;
 			remoteInfo = SkyFloatingLabelTextField;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0EF06124B5DCF1C4419589359A1DC4E6 /* UITextField+fixCaretPosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextField+fixCaretPosition.swift"; path = "Sources/UITextField+fixCaretPosition.swift"; sourceTree = "<group>"; };
 		0F897F7AB6FC8107D7984093793FB50C /* Pods-scrum-ios-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-scrum-ios-dummy.m"; sourceTree = "<group>"; };
-		18AB6AF7BE4547CE64DE5711633CFFC0 /* SkyFloatingLabelTextFieldWithIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextFieldWithIcon.swift; path = Sources/SkyFloatingLabelTextFieldWithIcon.swift; sourceTree = "<group>"; };
-		212B52B1676A4819900A99C4B5BC62ED /* SkyFloatingLabelTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyFloatingLabelTextField-prefix.pch"; sourceTree = "<group>"; };
+		1688F27029838C7C78A28DAAD1C53787 /* SkyFloatingLabelTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyFloatingLabelTextField-prefix.pch"; sourceTree = "<group>"; };
+		1991F20B3B17A95E63BD761411932528 /* SkyFloatingLabelTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyFloatingLabelTextField-umbrella.h"; sourceTree = "<group>"; };
+		22879DE9B0EFEFAE1551799592746041 /* SkyFloatingLabelTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextField.swift; path = Sources/SkyFloatingLabelTextField.swift; sourceTree = "<group>"; };
 		262F1B03E889124AB171A1FD466DE6E2 /* Pods-scrum-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-scrum-ios.release.xcconfig"; sourceTree = "<group>"; };
+		2EB6ECE3268D630327CCE651BD827EAD /* UICircularProgressRingDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UICircularProgressRingDelegate.swift; path = UICircularProgressRing/UICircularProgressRingDelegate.swift; sourceTree = "<group>"; };
+		2FF352A0FB64F4E8061F156359DCF7E3 /* Pods_scrum_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_scrum_ios.framework; path = "Pods-scrum-ios.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		33B2DBFCD5FF6DF3727F33DEFDC9FBC9 /* Pods-scrum-ios-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-scrum-ios-acknowledgements.plist"; sourceTree = "<group>"; };
 		363B0941A1B5B7FBB063C6BAAC272347 /* Pods-scrum-ios-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-scrum-ios-umbrella.h"; sourceTree = "<group>"; };
-		3998D604C4194CAA0ABE4BC6A6FD0608 /* SkyFloatingLabelTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyFloatingLabelTextField-umbrella.h"; sourceTree = "<group>"; };
-		47C9E5A771B58D18420E13898741CDB5 /* SkyFloatingLabelTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SkyFloatingLabelTextField.modulemap; sourceTree = "<group>"; };
+		3E7AB5BBE0EA9A0F97D35F3E3CC26D8E /* SkyFloatingLabelTextFieldWithIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextFieldWithIcon.swift; path = Sources/SkyFloatingLabelTextFieldWithIcon.swift; sourceTree = "<group>"; };
+		5AD903F3ACF5F4165A20AAE2E726653F /* UICircularProgressRing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UICircularProgressRing.framework; path = UICircularProgressRing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FA9853036352BAA4E1FC34822E0E5DE /* Pods-scrum-ios-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-scrum-ios-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6804FB54F18C5058CCAB97C41F5D7C85 /* SkyFloatingLabelTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SkyFloatingLabelTextField.xcconfig; sourceTree = "<group>"; };
+		6655A3A78C606462C34CE83DA5526518 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E09E993A3C1B69EBB941BD8E54C8B0C /* Pods-scrum-ios-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-scrum-ios-frameworks.sh"; sourceTree = "<group>"; };
+		726AED34FA9437AE5199DC8710BB1B17 /* UICircularProgressRing-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UICircularProgressRing-umbrella.h"; sourceTree = "<group>"; };
 		73480FDD63C8D463E6BE3F850599A611 /* Pods-scrum-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-scrum-ios.debug.xcconfig"; sourceTree = "<group>"; };
-		856C1FB00B0585E564D3D0EBDE90E4F5 /* SkyFloatingLabelTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SkyFloatingLabelTextField-dummy.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		941DA83D3C3A02A65862C41C07ED221C /* UICircularProgressRingLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UICircularProgressRingLayer.swift; path = UICircularProgressRing/UICircularProgressRingLayer.swift; sourceTree = "<group>"; };
+		AEAF4B1F9978C8B8477F875538DDB469 /* UICircularProgressRing-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UICircularProgressRing-prefix.pch"; sourceTree = "<group>"; };
+		BCC0EF0B517C0462B3A3AAA4F7F19CBB /* UICircularProgressRing.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UICircularProgressRing.xcconfig; sourceTree = "<group>"; };
+		C191C7FCFCFD515E8AAF92FC001C6B61 /* UICircularProgressRingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UICircularProgressRingView.swift; path = UICircularProgressRing/UICircularProgressRingView.swift; sourceTree = "<group>"; };
+		C90C4C4C4C997FB9DED6751597919C7A /* UICircularProgressRing.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = UICircularProgressRing.modulemap; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CCD6E67F7D1C03CD3AE6F91D64ED18FE /* Pods-scrum-ios-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-scrum-ios-resources.sh"; sourceTree = "<group>"; };
 		CD5276BCE069FAF71E0063ADE1C5186C /* Pods-scrum-ios.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-scrum-ios.modulemap"; sourceTree = "<group>"; };
-		DC2FD3B444C15779258A1E4254154328 /* SkyFloatingLabelTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextField.swift; path = Sources/SkyFloatingLabelTextField.swift; sourceTree = "<group>"; };
-		DFEECCA755E56BD7670ACA5B8FDE8C49 /* UITextField+fixCaretPosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextField+fixCaretPosition.swift"; path = "Sources/UITextField+fixCaretPosition.swift"; sourceTree = "<group>"; };
-		E9BB97A38D3DFA252F357985ECB3B1C8 /* SkyFloatingLabelTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SkyFloatingLabelTextField.framework; path = SkyFloatingLabelTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED7EB988A4198C2809FB449FBEF7B6FD /* Pods_scrum_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_scrum_ios.framework; path = "Pods-scrum-ios.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D40408C9A3DFA3A6D41839E008213D06 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D40B06810BFE3F7B89E713F2DDD39649 /* SkyFloatingLabelTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SkyFloatingLabelTextField-dummy.m"; sourceTree = "<group>"; };
+		DD50C7EE7B8ECA5B55DC8DFADE67EBCB /* UICircularProgressRing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UICircularProgressRing.h; path = UICircularProgressRing/UICircularProgressRing.h; sourceTree = "<group>"; };
+		E209EF0076747905EAE72B052EAD6298 /* SkyFloatingLabelTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SkyFloatingLabelTextField.xcconfig; sourceTree = "<group>"; };
+		E4B2F684098ADB1A6058E981FE0F441A /* UICircularProgressRing-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UICircularProgressRing-dummy.m"; sourceTree = "<group>"; };
+		E7F79CECCF2047F1ED6B50FB90C395F3 /* SkyFloatingLabelTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SkyFloatingLabelTextField.modulemap; sourceTree = "<group>"; };
 		ED977B79EA8F6EA5DD084613A355E69B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F4ADEA7F9BD0721D0AF2472DC64BBCFD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7AE5AF20F9DA88BAA1FA0B0C39928E4 /* SkyFloatingLabelTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SkyFloatingLabelTextField.framework; path = SkyFloatingLabelTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		00420B5390DE83BC0E3744E731C60F87 /* Frameworks */ = {
+		11A90C687D592A477D4A01C5804AA80A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				244C39CB4D5F542EB2F9D80215C51D83 /* Foundation.framework in Frameworks */,
+				4D73C430FC5A7A3494518E896BA670C0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6B52D05C6BD9F1928CA6213F87E3BB07 /* Frameworks */ = {
+		A030676FF15E6D10827FD536BB80AA94 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D48CEA6FB0710488768A0F568FFEF3AA /* Foundation.framework in Frameworks */,
+				87D3DB83E128421ECD77CA58F2FC2986 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7BC874D0DF062C14E5FB18129264B99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				583D6EEC5E35CE3ED9E9069642328758 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0C8F83CCEF573C773C34D82C14313BF9 /* Support Files */ = {
+		0365217FC2A838A02B6C96E11FDB4A1E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F4ADEA7F9BD0721D0AF2472DC64BBCFD /* Info.plist */,
-				47C9E5A771B58D18420E13898741CDB5 /* SkyFloatingLabelTextField.modulemap */,
-				6804FB54F18C5058CCAB97C41F5D7C85 /* SkyFloatingLabelTextField.xcconfig */,
-				856C1FB00B0585E564D3D0EBDE90E4F5 /* SkyFloatingLabelTextField-dummy.m */,
-				212B52B1676A4819900A99C4B5BC62ED /* SkyFloatingLabelTextField-prefix.pch */,
-				3998D604C4194CAA0ABE4BC6A6FD0608 /* SkyFloatingLabelTextField-umbrella.h */,
+				6655A3A78C606462C34CE83DA5526518 /* Info.plist */,
+				C90C4C4C4C997FB9DED6751597919C7A /* UICircularProgressRing.modulemap */,
+				BCC0EF0B517C0462B3A3AAA4F7F19CBB /* UICircularProgressRing.xcconfig */,
+				E4B2F684098ADB1A6058E981FE0F441A /* UICircularProgressRing-dummy.m */,
+				AEAF4B1F9978C8B8477F875538DDB469 /* UICircularProgressRing-prefix.pch */,
+				726AED34FA9437AE5199DC8710BB1B17 /* UICircularProgressRing-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UICircularProgressRing";
+			sourceTree = "<group>";
+		};
+		628E411C0043FB9E4FDA8E8A50191EBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FF352A0FB64F4E8061F156359DCF7E3 /* Pods_scrum_ios.framework */,
+				F7AE5AF20F9DA88BAA1FA0B0C39928E4 /* SkyFloatingLabelTextField.framework */,
+				5AD903F3ACF5F4165A20AAE2E726653F /* UICircularProgressRing.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		684512E24D80E74B26A198EFE45C721C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D40408C9A3DFA3A6D41839E008213D06 /* Info.plist */,
+				E7F79CECCF2047F1ED6B50FB90C395F3 /* SkyFloatingLabelTextField.modulemap */,
+				E209EF0076747905EAE72B052EAD6298 /* SkyFloatingLabelTextField.xcconfig */,
+				D40B06810BFE3F7B89E713F2DDD39649 /* SkyFloatingLabelTextField-dummy.m */,
+				1688F27029838C7C78A28DAAD1C53787 /* SkyFloatingLabelTextField-prefix.pch */,
+				1991F20B3B17A95E63BD761411932528 /* SkyFloatingLabelTextField-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/SkyFloatingLabelTextField";
-			sourceTree = "<group>";
-		};
-		3E538C50B5FBAB3A28B0BDDB5EEAA44A /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				BE06ED5906FCC1C2AA7EDA322B1D832D /* SkyFloatingLabelTextField */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		6D41417691315FA25D1F0E018C3ADAE7 /* Pods-scrum-ios */ = {
@@ -127,19 +176,35 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				3E538C50B5FBAB3A28B0BDDB5EEAA44A /* Pods */,
-				85582842A63978C73656C3AADCECC71C /* Products */,
+				DC28F2AD07000019C1F88BC2539712CE /* Pods */,
+				628E411C0043FB9E4FDA8E8A50191EBB /* Products */,
 				DF79A777BC6A404D9A7A5044F0619D31 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		85582842A63978C73656C3AADCECC71C /* Products */ = {
+		A3832B0A86F552EB613E902F3E1079E2 /* UICircularProgressRing */ = {
 			isa = PBXGroup;
 			children = (
-				ED7EB988A4198C2809FB449FBEF7B6FD /* Pods_scrum_ios.framework */,
-				E9BB97A38D3DFA252F357985ECB3B1C8 /* SkyFloatingLabelTextField.framework */,
+				DD50C7EE7B8ECA5B55DC8DFADE67EBCB /* UICircularProgressRing.h */,
+				2EB6ECE3268D630327CCE651BD827EAD /* UICircularProgressRingDelegate.swift */,
+				941DA83D3C3A02A65862C41C07ED221C /* UICircularProgressRingLayer.swift */,
+				C191C7FCFCFD515E8AAF92FC001C6B61 /* UICircularProgressRingView.swift */,
+				0365217FC2A838A02B6C96E11FDB4A1E /* Support Files */,
 			);
-			name = Products;
+			name = UICircularProgressRing;
+			path = UICircularProgressRing;
+			sourceTree = "<group>";
+		};
+		A8CDF7E980CE199DF8DC11004CF67D95 /* SkyFloatingLabelTextField */ = {
+			isa = PBXGroup;
+			children = (
+				22879DE9B0EFEFAE1551799592746041 /* SkyFloatingLabelTextField.swift */,
+				3E7AB5BBE0EA9A0F97D35F3E3CC26D8E /* SkyFloatingLabelTextFieldWithIcon.swift */,
+				0EF06124B5DCF1C4419589359A1DC4E6 /* UITextField+fixCaretPosition.swift */,
+				684512E24D80E74B26A198EFE45C721C /* Support Files */,
+			);
+			name = SkyFloatingLabelTextField;
+			path = SkyFloatingLabelTextField;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -150,16 +215,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BE06ED5906FCC1C2AA7EDA322B1D832D /* SkyFloatingLabelTextField */ = {
+		DC28F2AD07000019C1F88BC2539712CE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DC2FD3B444C15779258A1E4254154328 /* SkyFloatingLabelTextField.swift */,
-				18AB6AF7BE4547CE64DE5711633CFFC0 /* SkyFloatingLabelTextFieldWithIcon.swift */,
-				DFEECCA755E56BD7670ACA5B8FDE8C49 /* UITextField+fixCaretPosition.swift */,
-				0C8F83CCEF573C773C34D82C14313BF9 /* Support Files */,
+				A8CDF7E980CE199DF8DC11004CF67D95 /* SkyFloatingLabelTextField */,
+				A3832B0A86F552EB613E902F3E1079E2 /* UICircularProgressRing */,
 			);
-			name = SkyFloatingLabelTextField;
-			path = SkyFloatingLabelTextField;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		DF79A777BC6A404D9A7A5044F0619D31 /* Targets Support Files */ = {
@@ -173,50 +235,58 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		75821BE37A5C3495D41EB0BCBDB9E5E8 /* Headers */ = {
+		354E605444C4F6475E38AC33989C168A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27855C78EFA6997228D2BE4ECF334308 /* SkyFloatingLabelTextField-umbrella.h in Headers */,
+				00C1AD351F5C740A95FF16FEDB0780D2 /* Pods-scrum-ios-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C68A66B85A91DE0BCB7163F5BF682395 /* Headers */ = {
+		D5935BC67C8721211BC837E914D8667F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E611246816BE05D7C814B052D719ED9 /* Pods-scrum-ios-umbrella.h in Headers */,
+				623F1B4C5993365300C45E18BE06FDC4 /* UICircularProgressRing-umbrella.h in Headers */,
+				E102CBAD47EE61C864D17BD2AA6DC611 /* UICircularProgressRing.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E89FDB7DC515C6242C676FCDE1C8069B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D34CEC13C6B8B1CEB1F871A0E7418EF /* SkyFloatingLabelTextField-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		5ECD5414F18FFF183A7F720F21A657CF /* Pods-scrum-ios */ = {
+		55C62BACCDBED9AD1E208046FCFF0CA3 /* UICircularProgressRing */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3EB50B361185282B35850008D2DDF219 /* Build configuration list for PBXNativeTarget "Pods-scrum-ios" */;
+			buildConfigurationList = 262558A10229724F46983A599E4A3C3A /* Build configuration list for PBXNativeTarget "UICircularProgressRing" */;
 			buildPhases = (
-				336B618D9254623F099ABD283A899226 /* Sources */,
-				6B52D05C6BD9F1928CA6213F87E3BB07 /* Frameworks */,
-				C68A66B85A91DE0BCB7163F5BF682395 /* Headers */,
+				D3F0900F51EACFC0925D9FCDEEF7C3F7 /* Sources */,
+				A030676FF15E6D10827FD536BB80AA94 /* Frameworks */,
+				D5935BC67C8721211BC837E914D8667F /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				134DBDF8B192038AEB1DA34EAA4D11B8 /* PBXTargetDependency */,
 			);
-			name = "Pods-scrum-ios";
-			productName = "Pods-scrum-ios";
-			productReference = ED7EB988A4198C2809FB449FBEF7B6FD /* Pods_scrum_ios.framework */;
+			name = UICircularProgressRing;
+			productName = UICircularProgressRing;
+			productReference = 5AD903F3ACF5F4165A20AAE2E726653F /* UICircularProgressRing.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		8558CD1F74E8AA00B8D15E32EBAA3BCF /* SkyFloatingLabelTextField */ = {
+		B5845FF25B1BCDFE32E0DBD24EC86847 /* SkyFloatingLabelTextField */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F8632428C6B2D8FCACE287ED6345731B /* Build configuration list for PBXNativeTarget "SkyFloatingLabelTextField" */;
+			buildConfigurationList = 3C1EB095CF363FEE7EFAEC67CC68B2A5 /* Build configuration list for PBXNativeTarget "SkyFloatingLabelTextField" */;
 			buildPhases = (
-				59451D6C03604E556E472D4D6EC4F3B7 /* Sources */,
-				00420B5390DE83BC0E3744E731C60F87 /* Frameworks */,
-				75821BE37A5C3495D41EB0BCBDB9E5E8 /* Headers */,
+				712810530FCADE2F2F0ABB63EB4965AC /* Sources */,
+				F7BC874D0DF062C14E5FB18129264B99 /* Frameworks */,
+				E89FDB7DC515C6242C676FCDE1C8069B /* Headers */,
 			);
 			buildRules = (
 			);
@@ -224,7 +294,26 @@
 			);
 			name = SkyFloatingLabelTextField;
 			productName = SkyFloatingLabelTextField;
-			productReference = E9BB97A38D3DFA252F357985ECB3B1C8 /* SkyFloatingLabelTextField.framework */;
+			productReference = F7AE5AF20F9DA88BAA1FA0B0C39928E4 /* SkyFloatingLabelTextField.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D11631C3FB252EEBD5991D95C051EE1F /* Pods-scrum-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FDBA9785E078492523DECDBFF2E5F55 /* Build configuration list for PBXNativeTarget "Pods-scrum-ios" */;
+			buildPhases = (
+				4FB17FDDB1DE42ACE1536386D638E6BA /* Sources */,
+				11A90C687D592A477D4A01C5804AA80A /* Frameworks */,
+				354E605444C4F6475E38AC33989C168A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24A596163048DA2F7595367B8BA55A8C /* PBXTargetDependency */,
+				B96C7311A774B4611674F471703F99BE /* PBXTargetDependency */,
+			);
+			name = "Pods-scrum-ios";
+			productName = "Pods-scrum-ios";
+			productReference = 2FF352A0FB64F4E8061F156359DCF7E3 /* Pods_scrum_ios.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -244,44 +333,62 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 85582842A63978C73656C3AADCECC71C /* Products */;
+			productRefGroup = 628E411C0043FB9E4FDA8E8A50191EBB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5ECD5414F18FFF183A7F720F21A657CF /* Pods-scrum-ios */,
-				8558CD1F74E8AA00B8D15E32EBAA3BCF /* SkyFloatingLabelTextField */,
+				D11631C3FB252EEBD5991D95C051EE1F /* Pods-scrum-ios */,
+				B5845FF25B1BCDFE32E0DBD24EC86847 /* SkyFloatingLabelTextField */,
+				55C62BACCDBED9AD1E208046FCFF0CA3 /* UICircularProgressRing */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		336B618D9254623F099ABD283A899226 /* Sources */ = {
+		4FB17FDDB1DE42ACE1536386D638E6BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1E0B11FB27209AA00A6AFDA7A925C3C /* Pods-scrum-ios-dummy.m in Sources */,
+				8FAE9BA37EE579B36971F1F2A467BB38 /* Pods-scrum-ios-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		59451D6C03604E556E472D4D6EC4F3B7 /* Sources */ = {
+		712810530FCADE2F2F0ABB63EB4965AC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA68C963490A7227830FEE8272553C97 /* SkyFloatingLabelTextField-dummy.m in Sources */,
-				7AD9295C389410700ECD10750A6D183B /* SkyFloatingLabelTextField.swift in Sources */,
-				E448380EB06FC8B473F3C46E9F92FD89 /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */,
-				9F5FF43A00B0DF3350A599E88242C31C /* UITextField+fixCaretPosition.swift in Sources */,
+				C7BBFF4D891C85D3B2685A71DC976C12 /* SkyFloatingLabelTextField-dummy.m in Sources */,
+				73F9EA0F4231E6B716FF01FD67E0360D /* SkyFloatingLabelTextField.swift in Sources */,
+				4E54101C9722DD1DA373557B1B5F937D /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */,
+				E957D2E62955051A341667BB0F84EDFD /* UITextField+fixCaretPosition.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3F0900F51EACFC0925D9FCDEEF7C3F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E65D51CDCA848D8A8C3011578087840 /* UICircularProgressRing-dummy.m in Sources */,
+				D36DF9B47B90EAD51AAEF0918796A7D6 /* UICircularProgressRingDelegate.swift in Sources */,
+				46DFE69219AC545D4BE88D5ECF9D2A62 /* UICircularProgressRingLayer.swift in Sources */,
+				24DE2EB9A5FEBCDC104C312252136AD4 /* UICircularProgressRingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		134DBDF8B192038AEB1DA34EAA4D11B8 /* PBXTargetDependency */ = {
+		24A596163048DA2F7595367B8BA55A8C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SkyFloatingLabelTextField;
-			target = 8558CD1F74E8AA00B8D15E32EBAA3BCF /* SkyFloatingLabelTextField */;
-			targetProxy = 5C5B5652EA8AE6C055032568CB757AC9 /* PBXContainerItemProxy */;
+			target = B5845FF25B1BCDFE32E0DBD24EC86847 /* SkyFloatingLabelTextField */;
+			targetProxy = FDD96A0FDDDB1C4C23DDB95598395A4B /* PBXContainerItemProxy */;
+		};
+		B96C7311A774B4611674F471703F99BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UICircularProgressRing;
+			target = 55C62BACCDBED9AD1E208046FCFF0CA3 /* UICircularProgressRing */;
+			targetProxy = 89367C811AC8339405D79B4425E04C5C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -325,75 +432,6 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
-		};
-		456AC2FDF50A1BA829EF80772D0A2B6C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6804FB54F18C5058CCAB97C41F5D7C85 /* SkyFloatingLabelTextField.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SkyFloatingLabelTextField/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SkyFloatingLabelTextField;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4649C5FE97B740B0E4205C4B850D4D24 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 73480FDD63C8D463E6BE3F850599A611 /* Pods-scrum-ios.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-scrum-ios/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-scrum-ios/Pods-scrum-ios.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_scrum_ios;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		717203CFCF97FBAAC9828ACF699ED117 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -439,7 +477,140 @@
 			};
 			name = Debug;
 		};
-		AB83909FA07A268111965892A8AC6174 /* Release */ = {
+		7C2FB0138B8D192306427825D2502565 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E209EF0076747905EAE72B052EAD6298 /* SkyFloatingLabelTextField.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SkyFloatingLabelTextField/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SkyFloatingLabelTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7C4115A045D3D34D63AE50ABEBEE6A14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73480FDD63C8D463E6BE3F850599A611 /* Pods-scrum-ios.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-scrum-ios/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-scrum-ios/Pods-scrum-ios.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_scrum_ios;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B62C72E37C4B897E3EC6BB84D88F70CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E209EF0076747905EAE72B052EAD6298 /* SkyFloatingLabelTextField.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SkyFloatingLabelTextField/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SkyFloatingLabelTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B6DB155563A7B50EA7EF9B41526D6EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCC0EF0B517C0462B3A3AAA4F7F19CBB /* UICircularProgressRing.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UICircularProgressRing/UICircularProgressRing-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UICircularProgressRing/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UICircularProgressRing/UICircularProgressRing.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = UICircularProgressRing;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D4E0B933B6F4B1ECF53ECFEAF78FD7DC /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 262F1B03E889124AB171A1FD466DE6E2 /* Pods-scrum-ios.release.xcconfig */;
 			buildSettings = {
@@ -474,41 +645,60 @@
 			};
 			name = Release;
 		};
-		AC1A4403D22698FFC3919CB35A705735 /* Release */ = {
+		FEFA8C5CC96ED417B3C7451BEC490A26 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6804FB54F18C5058CCAB97C41F5D7C85 /* SkyFloatingLabelTextField.xcconfig */;
+			baseConfigurationReference = BCC0EF0B517C0462B3A3AAA4F7F19CBB /* UICircularProgressRing.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SkyFloatingLabelTextField/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/UICircularProgressRing/UICircularProgressRing-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UICircularProgressRing/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SkyFloatingLabelTextField;
+				MODULEMAP_FILE = "Target Support Files/UICircularProgressRing/UICircularProgressRing.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = UICircularProgressRing;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1FDBA9785E078492523DECDBFF2E5F55 /* Build configuration list for PBXNativeTarget "Pods-scrum-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C4115A045D3D34D63AE50ABEBEE6A14 /* Debug */,
+				D4E0B933B6F4B1ECF53ECFEAF78FD7DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		262558A10229724F46983A599E4A3C3A /* Build configuration list for PBXNativeTarget "UICircularProgressRing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEFA8C5CC96ED417B3C7451BEC490A26 /* Debug */,
+				B6DB155563A7B50EA7EF9B41526D6EE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -518,20 +708,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3EB50B361185282B35850008D2DDF219 /* Build configuration list for PBXNativeTarget "Pods-scrum-ios" */ = {
+		3C1EB095CF363FEE7EFAEC67CC68B2A5 /* Build configuration list for PBXNativeTarget "SkyFloatingLabelTextField" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4649C5FE97B740B0E4205C4B850D4D24 /* Debug */,
-				AB83909FA07A268111965892A8AC6174 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F8632428C6B2D8FCACE287ED6345731B /* Build configuration list for PBXNativeTarget "SkyFloatingLabelTextField" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				456AC2FDF50A1BA829EF80772D0A2B6C /* Debug */,
-				AC1A4403D22698FFC3919CB35A705735 /* Release */,
+				B62C72E37C4B897E3EC6BB84D88F70CD /* Debug */,
+				7C2FB0138B8D192306427825D2502565 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
