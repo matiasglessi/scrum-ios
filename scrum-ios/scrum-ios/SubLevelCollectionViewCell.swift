@@ -10,6 +10,10 @@ import UIKit
 
 class SubLevelCollectionViewCell: UICollectionViewCell {
 
+    @IBOutlet weak var sublevelTitleLabel: UILabel!
+    @IBOutlet weak var sublevelStatusLabel: UILabel!
+    @IBOutlet weak var sublevelsNumberLabel: UILabel!
+    @IBOutlet weak var circularProgressView: UICircularProgressRingView!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

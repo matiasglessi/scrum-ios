@@ -100,6 +100,12 @@
                 <constraint firstItem="GYD-Of-NOE" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="w8J-K0-yFU"/>
             </constraints>
             <size key="customSize" width="155" height="215"/>
+            <connections>
+                <outlet property="circularProgressView" destination="bie-fQ-xbM" id="D0C-3M-aIS"/>
+                <outlet property="sublevelStatusLabel" destination="soP-3g-nyv" id="6Ri-6o-uFR"/>
+                <outlet property="sublevelTitleLabel" destination="GYD-Of-NOE" id="0Cn-Dp-fF3"/>
+                <outlet property="sublevelsNumberLabel" destination="4NI-sv-r2R" id="Fk5-VH-z51"/>
+            </connections>
             <point key="canvasLocation" x="77.5" y="22.5"/>
         </collectionViewCell>
     </objects>
