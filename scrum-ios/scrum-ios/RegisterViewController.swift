@@ -7,11 +7,13 @@
 //
 
 import UIKit
+import SkyFloatingLabelTextField
 
 class RegisterViewController: UIViewController {
 
     var manSelected = true
     
+    @IBOutlet weak var lastNameTextField: SkyFloatingLabelTextField!
     @IBOutlet weak var womanGenreButton: UIButton!
     @IBOutlet weak var manGenreButton: UIButton!
     override func viewDidLoad() {

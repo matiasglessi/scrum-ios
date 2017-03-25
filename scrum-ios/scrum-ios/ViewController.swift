@@ -41,5 +41,16 @@ class ViewController: UIViewController {
 
     }
 
+    @IBAction func smallLevelsTapped(_ sender: Any) {
+        
+        
+        let messagesStoryboard = UIStoryboard.init(name: "SubLevel", bundle: nil)
+        let lalaVC = messagesStoryboard.instantiateViewController(withIdentifier: "SubLevelViewController") as! SubLevelViewController
+        
+        
+        self.navigationController?.pushViewController(lalaVC, animated: true)
+        
+
+    }
 }
 

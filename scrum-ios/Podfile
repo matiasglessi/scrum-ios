@@ -1,7 +1,7 @@
 use_frameworks!
 def shared_pods
     pod 'SkyFloatingLabelTextField', '~> 2.0.0'
-    pod 'UICircularProgressRing'
+    pod 'MBCircularProgressBar'
 end
 
 target 'scrum-ios' do

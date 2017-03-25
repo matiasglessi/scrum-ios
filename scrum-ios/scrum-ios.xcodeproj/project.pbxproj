@@ -18,6 +18,7 @@
 		B3630E731E78769A0014768D /* LevelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3630E721E78769A0014768D /* LevelsViewController.swift */; };
 		B3630E751E7876A60014768D /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3630E741E7876A60014768D /* ProfileViewController.swift */; };
 		B3630E771E7876B10014768D /* ConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3630E761E7876B10014768D /* ConfigurationViewController.swift */; };
+		B363805B1E86CD1900325A0A /* SubLevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B363805A1E86CD1900325A0A /* SubLevelViewController.swift */; };
 		B36D0B3D1E78C36D0096E634 /* Levels.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B36D0B3C1E78C36D0096E634 /* Levels.storyboard */; };
 		B371F1F11E82C21900F1990A /* BigLevelCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B371F1EF1E82C21900F1990A /* BigLevelCollectionViewCell.swift */; };
 		B371F1F21E82C21900F1990A /* BigLevelCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B371F1F01E82C21900F1990A /* BigLevelCollectionViewCell.xib */; };
@@ -43,6 +44,7 @@
 		B3630E721E78769A0014768D /* LevelsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelsViewController.swift; sourceTree = "<group>"; };
 		B3630E741E7876A60014768D /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		B3630E761E7876B10014768D /* ConfigurationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurationViewController.swift; sourceTree = "<group>"; };
+		B363805A1E86CD1900325A0A /* SubLevelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubLevelViewController.swift; sourceTree = "<group>"; };
 		B36D0B3C1E78C36D0096E634 /* Levels.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Levels.storyboard; sourceTree = "<group>"; };
 		B371F1EF1E82C21900F1990A /* BigLevelCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BigLevelCollectionViewCell.swift; sourceTree = "<group>"; };
 		B371F1F01E82C21900F1990A /* BigLevelCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BigLevelCollectionViewCell.xib; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 				B3630E721E78769A0014768D /* LevelsViewController.swift */,
 				B3630E741E7876A60014768D /* ProfileViewController.swift */,
 				B3630E761E7876B10014768D /* ConfigurationViewController.swift */,
+				B363805A1E86CD1900325A0A /* SubLevelViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 				B3630E751E7876A60014768D /* ProfileViewController.swift in Sources */,
 				B33A65BA1E4A8F3B00EED41A /* AppDelegate.swift in Sources */,
 				B3630E731E78769A0014768D /* LevelsViewController.swift in Sources */,
+				B363805B1E86CD1900325A0A /* SubLevelViewController.swift in Sources */,
 				B3630E771E7876B10014768D /* ConfigurationViewController.swift in Sources */,
 				B371F1F11E82C21900F1990A /* BigLevelCollectionViewCell.swift in Sources */,
 			);

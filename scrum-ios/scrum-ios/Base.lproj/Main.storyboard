@@ -37,6 +37,14 @@
                                     <action selector="buttonPressed:" destination="h8A-mq-cMs" eventType="touchUpInside" id="ei9-ho-ksD"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0os-dg-hCP">
+                                <rect key="frame" x="133" y="472" width="117" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="SMALL LEVELS"/>
+                                <connections>
+                                    <action selector="smallLevelsTapped:" destination="h8A-mq-cMs" eventType="touchUpInside" id="5wa-1L-OM6"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -51,7 +59,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="XFf-iL-v79" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="IfJ-8E-6XD">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="IfJ-8E-6XD">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>

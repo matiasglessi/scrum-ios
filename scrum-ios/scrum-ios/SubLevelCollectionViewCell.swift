@@ -7,16 +7,20 @@
 //
 
 import UIKit
+import MBCircularProgressBar
 
 class SubLevelCollectionViewCell: UICollectionViewCell {
 
     @IBOutlet weak var sublevelTitleLabel: UILabel!
     @IBOutlet weak var sublevelStatusLabel: UILabel!
-    @IBOutlet weak var sublevelsNumberLabel: UILabel!
-    @IBOutlet weak var circularProgressView: UICircularProgressRingView!
+
+    @IBOutlet weak var backView: UIView!
+    
+    @IBOutlet weak var circularProgressView: MBCircularProgressBarView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        
     }
 
 }

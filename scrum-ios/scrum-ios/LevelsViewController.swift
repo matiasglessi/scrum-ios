@@ -19,6 +19,19 @@ class LevelsViewController: UIViewController, UICollectionViewDelegate, UICollec
 
 
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        let contentSize = self.collectionView.collectionViewLayout.collectionViewContentSize
+        
+        if (contentSize.height > self.collectionView.bounds.size.height) {
+            
+            let targetContentOffset = CGPoint.init(x: 0.0, y: contentSize.height - self.collectionView.bounds.size.height)
+            
+            self.collectionView.setContentOffset(targetContentOffset, animated: false)
+        }
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -35,7 +48,7 @@ class LevelsViewController: UIViewController, UICollectionViewDelegate, UICollec
     
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 10
+        return 1
     }
     
     

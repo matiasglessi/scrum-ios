@@ -1,15 +1,15 @@
 PODS:
+  - MBCircularProgressBar (0.3.5)
   - SkyFloatingLabelTextField (2.0.1)
-  - UICircularProgressRing (1.1.7)
 
 DEPENDENCIES:
+  - MBCircularProgressBar
   - SkyFloatingLabelTextField (~> 2.0.0)
-  - UICircularProgressRing
 
 SPEC CHECKSUMS:
+  MBCircularProgressBar: 0b795b722a5eb5b0923822f90474e2576a1a7855
   SkyFloatingLabelTextField: 070e749632ffd608d6fd9db3fa488a822524997c
-  UICircularProgressRing: aa42aecd035658bd7212fab6e2feabc8dcc72fae
 
-PODFILE CHECKSUM: e92e96dac8aa0f6fc6263d25ae895a81619d468d
+PODFILE CHECKSUM: f6009789b26770e541c31921fb275bb769349bab
 
 COCOAPODS: 1.1.1
