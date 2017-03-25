@@ -413,6 +413,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 03E19FBE8DBB34FDDD09A885 /* Pods-scrum-ios.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 82GZ32TP2H;
 				INFOPLIST_FILE = "scrum-ios/Info.plist";
@@ -427,6 +428,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 991A52B548E1232C98EA349D /* Pods-scrum-ios.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 82GZ32TP2H;
 				INFOPLIST_FILE = "scrum-ios/Info.plist";
