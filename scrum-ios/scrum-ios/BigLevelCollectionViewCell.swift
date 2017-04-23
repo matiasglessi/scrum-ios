@@ -16,6 +16,10 @@ class BigLevelCollectionViewCell: UICollectionViewCell {
     
     @IBOutlet weak var subLevelsNumberLabel: UILabel!
 
+    @IBOutlet weak var lockedView: UIView!
+    
+    @IBOutlet weak var levelNumber: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

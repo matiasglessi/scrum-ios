@@ -27,41 +27,75 @@
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¿SCRUM?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xk7-4z-dsp">
-                        <rect key="frame" x="145" y="55" width="122" height="30"/>
+                        <rect key="frame" x="146" y="55" width="120" height="30"/>
                         <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="25"/>
                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5 %" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u3T-Fh-yer">
-                        <rect key="frame" x="373" y="10" width="29" height="21"/>
+                        <rect key="frame" x="370" y="10" width="32" height="20"/>
                         <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="17"/>
                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8 subniveles" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i03-40-vIc">
-                        <rect key="frame" x="153.5" y="81.5" width="106.5" height="21"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1 subnivel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i03-40-vIc">
+                        <rect key="frame" x="168" y="82" width="77" height="20"/>
                         <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="17"/>
                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <nil key="highlightedColor"/>
                     </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0AU-63-npo">
+                        <rect key="frame" x="20" y="23" width="54" height="114"/>
+                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="97"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="0.64746989678899081" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MXF-5Y-kWJ">
+                        <rect key="frame" x="0.0" y="0.0" width="412" height="160"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.59999999999999998" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lock" translatesAutoresizingMaskIntoConstraints="NO" id="XAZ-Rc-51p">
+                                <rect key="frame" x="156" y="30" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="Hcz-Sb-wlj"/>
+                                    <constraint firstAttribute="height" constant="100" id="oBl-sR-I6W"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="0.69999999999999996" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="XAZ-Rc-51p" firstAttribute="centerY" secondItem="MXF-5Y-kWJ" secondAttribute="centerY" id="WrR-Q9-GZv"/>
+                            <constraint firstItem="XAZ-Rc-51p" firstAttribute="centerX" secondItem="MXF-5Y-kWJ" secondAttribute="centerX" id="YFd-IT-Goo"/>
+                        </constraints>
+                    </view>
                 </subviews>
             </view>
-            <color key="backgroundColor" red="0.085174460090000001" green="0.55554013319999995" blue="0.18368227300000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color key="backgroundColor" red="1" green="0.65098039215686276" blue="0.10196078431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
+                <constraint firstItem="MXF-5Y-kWJ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Dxm-z0-1JS"/>
+                <constraint firstItem="0AU-63-npo" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="HxK-1U-mfw"/>
                 <constraint firstItem="i03-40-vIc" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="MD9-9r-5AI"/>
                 <constraint firstItem="Xk7-4z-dsp" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" constant="-10" id="PUF-Mc-HQH"/>
                 <constraint firstItem="u3T-Fh-yer" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="Yf6-lR-HBx"/>
                 <constraint firstItem="Xk7-4z-dsp" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="dR6-UY-O25"/>
                 <constraint firstAttribute="trailing" secondItem="u3T-Fh-yer" secondAttribute="trailing" constant="10" id="j0c-eT-vfK"/>
+                <constraint firstItem="0AU-63-npo" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="20" id="j4E-97-I1k"/>
+                <constraint firstAttribute="bottom" secondItem="MXF-5Y-kWJ" secondAttribute="bottom" id="kcn-qz-XYY"/>
+                <constraint firstAttribute="trailing" secondItem="MXF-5Y-kWJ" secondAttribute="trailing" id="m9V-FW-tWT"/>
+                <constraint firstItem="MXF-5Y-kWJ" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="rxq-NZ-74a"/>
                 <constraint firstItem="i03-40-vIc" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" constant="12" id="sZa-KL-ZSE"/>
             </constraints>
             <size key="customSize" width="412" height="160"/>
             <connections>
+                <outlet property="levelNumber" destination="0AU-63-npo" id="Rat-ec-Mpq"/>
                 <outlet property="levelTitleLabel" destination="Xk7-4z-dsp" id="AZJ-FR-fk7"/>
+                <outlet property="lockedView" destination="MXF-5Y-kWJ" id="2xG-1P-dMP"/>
                 <outlet property="percentageLabel" destination="u3T-Fh-yer" id="3nF-aU-B9e"/>
                 <outlet property="subLevelsNumberLabel" destination="i03-40-vIc" id="oLM-YL-H5d"/>
             </connections>
             <point key="canvasLocation" x="239" y="135"/>
         </collectionViewCell>
     </objects>
+    <resources>
+        <image name="lock" width="200" height="200"/>
+    </resources>
 </document>

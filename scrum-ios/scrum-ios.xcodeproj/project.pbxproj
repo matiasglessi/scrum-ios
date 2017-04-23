@@ -14,6 +14,8 @@
 		B33A65C11E4A8F3B00EED41A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B33A65C01E4A8F3B00EED41A /* Assets.xcassets */; };
 		B33A65C41E4A8F3B00EED41A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B33A65C21E4A8F3B00EED41A /* LaunchScreen.storyboard */; };
 		B33A65CC1E4A92D300EED41A /* Register.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B33A65CB1E4A92D300EED41A /* Register.storyboard */; };
+		B35E32701EAC073F0083A1C3 /* L1S1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35E326F1EAC073F0083A1C3 /* L1S1ViewController.swift */; };
+		B35E32721EAC08B70083A1C3 /* Level1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B35E32711EAC08B70083A1C3 /* Level1.storyboard */; };
 		B3630E711E7872E40014768D /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3630E701E7872E40014768D /* RegisterViewController.swift */; };
 		B3630E731E78769A0014768D /* LevelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3630E721E78769A0014768D /* LevelsViewController.swift */; };
 		B3630E751E7876A60014768D /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3630E741E7876A60014768D /* ProfileViewController.swift */; };
@@ -27,6 +29,8 @@
 		B3D363221E836A74003DB3ED /* SubLevel.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3D363211E836A74003DB3ED /* SubLevel.storyboard */; };
 		B3D363251E836BCE003DB3ED /* SubLevelCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D363231E836BCE003DB3ED /* SubLevelCollectionViewCell.swift */; };
 		B3D363261E836BCE003DB3ED /* SubLevelCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3D363241E836BCE003DB3ED /* SubLevelCollectionViewCell.xib */; };
+		B3DF58F81EAAB7E300D28F3B /* Tutorial.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3DF58F71EAAB7E300D28F3B /* Tutorial.storyboard */; };
+		B3DF58FA1EAAB87700D28F3B /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DF58F91EAAB87700D28F3B /* TutorialViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +44,8 @@
 		B33A65C31E4A8F3B00EED41A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B33A65C51E4A8F3B00EED41A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B33A65CB1E4A92D300EED41A /* Register.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Register.storyboard; sourceTree = "<group>"; };
+		B35E326F1EAC073F0083A1C3 /* L1S1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L1S1ViewController.swift; sourceTree = "<group>"; };
+		B35E32711EAC08B70083A1C3 /* Level1.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Level1.storyboard; sourceTree = "<group>"; };
 		B3630E701E7872E40014768D /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		B3630E721E78769A0014768D /* LevelsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelsViewController.swift; sourceTree = "<group>"; };
 		B3630E741E7876A60014768D /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +59,8 @@
 		B3D363211E836A74003DB3ED /* SubLevel.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SubLevel.storyboard; sourceTree = "<group>"; };
 		B3D363231E836BCE003DB3ED /* SubLevelCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubLevelCollectionViewCell.swift; sourceTree = "<group>"; };
 		B3D363241E836BCE003DB3ED /* SubLevelCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SubLevelCollectionViewCell.xib; sourceTree = "<group>"; };
+		B3DF58F71EAAB7E300D28F3B /* Tutorial.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Tutorial.storyboard; sourceTree = "<group>"; };
+		B3DF58F91EAAB87700D28F3B /* TutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
 		BF7B41E7C38194D96D34FF90 /* Pods_scrum_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_scrum_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -112,14 +120,32 @@
 			path = "scrum-ios";
 			sourceTree = "<group>";
 		};
+		B35E326B1EABEA0A0083A1C3 /* Levels */ = {
+			isa = PBXGroup;
+			children = (
+				B35E32711EAC08B70083A1C3 /* Level1.storyboard */,
+			);
+			name = Levels;
+			sourceTree = "<group>";
+		};
+		B35E326E1EAC07250083A1C3 /* Levels */ = {
+			isa = PBXGroup;
+			children = (
+				B35E326F1EAC073F0083A1C3 /* L1S1ViewController.swift */,
+			);
+			name = Levels;
+			sourceTree = "<group>";
+		};
 		B36D0B3B1E78C3480096E634 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
+				B35E326B1EABEA0A0083A1C3 /* Levels */,
 				B33A65BD1E4A8F3B00EED41A /* Main.storyboard */,
 				B33A65CB1E4A92D300EED41A /* Register.storyboard */,
 				B33A65C21E4A8F3B00EED41A /* LaunchScreen.storyboard */,
 				B36D0B3C1E78C36D0096E634 /* Levels.storyboard */,
 				B3D363211E836A74003DB3ED /* SubLevel.storyboard */,
+				B3DF58F71EAAB7E300D28F3B /* Tutorial.storyboard */,
 			);
 			name = Storyboards;
 			sourceTree = "<group>";
@@ -127,11 +153,13 @@
 		B371F1EE1E82C13500F1990A /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				B35E326E1EAC07250083A1C3 /* Levels */,
 				B3630E701E7872E40014768D /* RegisterViewController.swift */,
 				B3630E721E78769A0014768D /* LevelsViewController.swift */,
 				B3630E741E7876A60014768D /* ProfileViewController.swift */,
 				B3630E761E7876B10014768D /* ConfigurationViewController.swift */,
 				B363805A1E86CD1900325A0A /* SubLevelViewController.swift */,
+				B3DF58F91EAAB87700D28F3B /* TutorialViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -227,6 +255,8 @@
 				B33A65C11E4A8F3B00EED41A /* Assets.xcassets in Resources */,
 				B33A65BF1E4A8F3B00EED41A /* Main.storyboard in Resources */,
 				B33A65CC1E4A92D300EED41A /* Register.storyboard in Resources */,
+				B35E32721EAC08B70083A1C3 /* Level1.storyboard in Resources */,
+				B3DF58F81EAAB7E300D28F3B /* Tutorial.storyboard in Resources */,
 				B3D363221E836A74003DB3ED /* SubLevel.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +318,8 @@
 			files = (
 				B3D363251E836BCE003DB3ED /* SubLevelCollectionViewCell.swift in Sources */,
 				B3630E711E7872E40014768D /* RegisterViewController.swift in Sources */,
+				B3DF58FA1EAAB87700D28F3B /* TutorialViewController.swift in Sources */,
+				B35E32701EAC073F0083A1C3 /* L1S1ViewController.swift in Sources */,
 				B33A65BC1E4A8F3B00EED41A /* ViewController.swift in Sources */,
 				B3630E751E7876A60014768D /* ProfileViewController.swift in Sources */,
 				B33A65BA1E4A8F3B00EED41A /* AppDelegate.swift in Sources */,

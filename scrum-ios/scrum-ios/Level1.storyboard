@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C68" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ROJ-RD-4ZJ">
+            <objects>
+                <viewController storyboardIdentifier="L1S1" useStoryboardIdentifierAsRestorationIdentifier="YES" id="l63-Gw-ytg" customClass="L1S1ViewController" customModule="scrum_ios" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fU5-Wb-KbH"/>
+                        <viewControllerLayoutGuide type="bottom" id="71o-wl-wmF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="iw2-B8-X7b">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="45J-pA-CaL" userLabel="topView">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0d6-Vk-RYj">
+                                        <rect key="frame" x="10" y="34" width="72" height="22"/>
+                                        <state key="normal" title="  Volver" image="BackLeftArrow"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.2627450980392157" green="0.31372549019607843" blue="0.34509803921568627" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="NUY-u8-lgR"/>
+                                    <constraint firstItem="0d6-Vk-RYj" firstAttribute="centerY" secondItem="45J-pA-CaL" secondAttribute="centerY" constant="10" id="aeD-TG-7Ce"/>
+                                    <constraint firstItem="0d6-Vk-RYj" firstAttribute="leading" secondItem="45J-pA-CaL" secondAttribute="leading" constant="10" id="e27-N7-oYv"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="57j-me-lum">
+                                <rect key="frame" x="0.0" y="70" width="375" height="597"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="eV5-7a-TdB">
+                                <rect key="frame" x="0.0" y="70" width="375" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="I6M-lE-ph7"/>
+                                </constraints>
+                            </progressView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.24880402130176948" blue="0.16698412186677802" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="eV5-7a-TdB" secondAttribute="trailing" id="3jF-SP-5eb"/>
+                            <constraint firstItem="45J-pA-CaL" firstAttribute="top" secondItem="iw2-B8-X7b" secondAttribute="top" id="B65-JH-Pm2"/>
+                            <constraint firstItem="57j-me-lum" firstAttribute="leading" secondItem="iw2-B8-X7b" secondAttribute="leading" id="I56-9t-bsm"/>
+                            <constraint firstAttribute="trailing" secondItem="45J-pA-CaL" secondAttribute="trailing" id="Iyq-Mz-7E7"/>
+                            <constraint firstItem="45J-pA-CaL" firstAttribute="leading" secondItem="iw2-B8-X7b" secondAttribute="leading" id="LAI-q0-pto"/>
+                            <constraint firstItem="eV5-7a-TdB" firstAttribute="top" secondItem="45J-pA-CaL" secondAttribute="bottom" id="ZcJ-LD-FGf"/>
+                            <constraint firstItem="71o-wl-wmF" firstAttribute="top" secondItem="57j-me-lum" secondAttribute="bottom" id="eq5-FW-iKa"/>
+                            <constraint firstItem="57j-me-lum" firstAttribute="top" secondItem="45J-pA-CaL" secondAttribute="bottom" id="fAm-Ju-6Wp"/>
+                            <constraint firstItem="eV5-7a-TdB" firstAttribute="leading" secondItem="iw2-B8-X7b" secondAttribute="leading" id="gex-Zd-oPB"/>
+                            <constraint firstAttribute="trailing" secondItem="57j-me-lum" secondAttribute="trailing" id="woq-Wb-iGx"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hjo-mK-k8o" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-5031.1999999999998" y="-561.76911544227892"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="BackLeftArrow" width="12" height="22"/>
+    </resources>
+</document>

@@ -1,15 +1,21 @@
 PODS:
+  - BWWalkthrough (2.0.0)
   - MBCircularProgressBar (0.3.5)
   - SkyFloatingLabelTextField (2.0.1)
+  - UPCarouselFlowLayout (1.1.1)
 
 DEPENDENCIES:
+  - BWWalkthrough
   - MBCircularProgressBar
   - SkyFloatingLabelTextField (~> 2.0.0)
+  - UPCarouselFlowLayout
 
 SPEC CHECKSUMS:
+  BWWalkthrough: ca4d3c8526486add00bf38e20e9f3e218bda1ade
   MBCircularProgressBar: 0b795b722a5eb5b0923822f90474e2576a1a7855
   SkyFloatingLabelTextField: 070e749632ffd608d6fd9db3fa488a822524997c
+  UPCarouselFlowLayout: 02045c1505d63057fba3d9975be880a8d16bf17d
 
-PODFILE CHECKSUM: f6009789b26770e541c31921fb275bb769349bab
+PODFILE CHECKSUM: 2272a69ef62a578811b1152a7aa2f8b5e25b242b
 
 COCOAPODS: 1.1.1
